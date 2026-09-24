@@ -141,17 +141,3 @@ ai-banking-support-copilot/
 ## Future Improvements
 - Move to a global state manager (Zustand/Redux) for handling multiple chat sessions simultaneously.
 - Add responsive design for mobile agent usage (currently optimized for desktop).
-
-## Interview Talking Points
-- **60-sec explanation:** This is a frontend prototype of an AI Copilot for banking support agents. It demonstrates how a three-pane interface can surface context, predict intent, and suggest actions to help agents resolve tickets faster.
-- **Problem:** Agents waste time searching knowledge bases and typing repetitive responses while customers wait.
-- **Decision:** Built an agent-facing copilot rather than a customer-facing bot to ensure human-in-the-loop safety for financial transactions.
-- **Tradeoff:** Simulated the AI backend to ensure a fast, reliable UI demonstration without the overhead of API keys.
-- **Tech:** React, TypeScript, Vite, Tailwind CSS. Chosen for speed, type safety, and modern styling.
-- **AI:** Explored intent classification and suggested responses, mitigating hallucination by requiring agent approval for all actions.
-- **Metrics:** Designed to improve AHT, Deflection Rate, and FCR.
-- **Next:** Integrate with an actual LLM and a mock banking API to make the actions executable.
-- **Questions:** How do you currently handle compliance checks when agents respond to customers? Would an AI suggesting responses speed up or slow down the review process?
-
-## Disclaimer
-This is a prototype built for demonstration purposes. It does not connect to any real banking systems or real AI models.
