@@ -1,5 +1,7 @@
 # AI Banking Support Copilot
 
+![Project Screenshot](screenshots/dashboard.png)
+
 ## Product Overview
 The **AI Banking Support Copilot** is an intelligent assistant designed for customer service agents in the financial sector. It acts as an intermediary between the customer and the bank's knowledge base, providing real-time intent classification, suggested responses, and automated resolution workflows. The goal is to enhance agent productivity, reduce average handle time (AHT), and improve customer satisfaction (CSAT) by resolving inquiries faster and more accurately.
 
@@ -108,8 +110,6 @@ The current build is the MVP, demonstrating the core three-pane UI, real-time me
 - **Sentiment Analysis:** Detect angry customers and automatically prioritize them in the queue.
 - **Voice-to-Text:** Allow agents to use the Copilot on phone calls via real-time transcription.
 
-## Screenshots
-![Dashboard](screenshots/dashboard.png)
 
 ## Getting Started
 ### Environment Variables
